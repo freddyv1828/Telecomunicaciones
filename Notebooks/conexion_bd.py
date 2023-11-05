@@ -6,7 +6,7 @@ conexion = pymysql.connect(
     host="localhost",
     port= 3306,
     user= "root",
-    passwd= "pasa_perra",
+    passwd= "pupitre.123",
     database= "Telecomunicaciones",
 )
 # Crear cursor
@@ -16,7 +16,7 @@ cursor = conexion.cursor()
 host = "localhost"
 port = 3306
 user = "root"
-password = "pasa_perra"
+password = "pupitre.123"
 database = "Telecomunicaciones"
 
 conexion_string = f"mysql+pymysql://{user}:{password}@{host}:{port}/{database}"
