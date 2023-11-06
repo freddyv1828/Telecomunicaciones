@@ -21,3 +21,7 @@ database = "Telecomunicaciones"
 
 conexion_string = f"mysql+pymysql://{user}:{password}@{host}:{port}/{database}"
 engine = create_engine(conexion_string)
+
+
+    
+    
